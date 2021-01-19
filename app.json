@@ -33,20 +33,20 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "123"
+         "value": "1367484916"
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "username"
+         "value": "Mr_Purushottam"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "123"
+         "value": "1367484916 1453335640 958007042 1463999951 1118363080"
       },
       "GBAN_LOGS": {
          "description": "Gban log channel, include the hyphen too: ex: -123456",
-         "value": "-123"
+         "value": "-1001168719573"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -76,12 +76,12 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "123"
+         "value": "1367484916 1453335640 958007042 1463999951 1118363080"
       },
       "TIGER_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "123"
+         "value": "1367484916 1453335640 958007042 1463999951 1118363080"
       },
       "TOKEN": {
          "description": "Your bot token.",
@@ -101,7 +101,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "123"
+         "value": "1367484916 1453335640 958007042 1463999951 1118363080"
       }
    },
    "keywords": [
@@ -110,7 +110,7 @@
       "manager",
       "bot"
    ],
-   "logo": "https://telegra.ph/file/8be437d4365ef6fce405a.jpg",
-   "name": "Noob",
+   "logo": "https://telegra.ph/file/20e1d4875acf1b8346594.png",
+   "name": "THE LIBRARIAN'S bot™",
    "repository": "https://github.com/leobrownlee/phantom"
 }
