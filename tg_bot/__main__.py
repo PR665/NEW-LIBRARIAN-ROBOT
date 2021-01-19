@@ -26,30 +26,30 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name is {}!** 
-I am an **SUPERB**  group management bot.
-You can find the list of available commands with /help.
-Special thanks to @TechnoSecurityBot for helping in developing me.
+**🙋🏻Hello..!!Mr./ Mrs.{}, My Name is {}!** 
+I am an **👩🏻‍🔬Talented+Sequred👮🏻**  group management bot.
+You can find the list of available commands with these trigger💁🏻 /help.
+
 """
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
+Hii Friend..!! About Meself *{}* & you can also Meet with Jour Official Study Material bot. @Librarian_Notes_Bot 💝 .
 
-*Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /settings:
-   - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
+Commands Available In **Main Menu**:
+💠➥ /start : To activate the Bot.
+💠➥ /help : PM's You with the commands.
+💠➥ /help <module name> : PM's you about the module.
+💠➥ /settings :
+✅ In PM ; will send your settings for all supported modules.
+✅ In Group ; will redirect you to PM, with all that chat settings.
 
 
 {}
-And the following:
+And the Following : 
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/8be437d4365ef6fce405a.jpg"
+TECHNO_IMG = "https://telegra.ph/file/3ffcca74b8f564f7883fc.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -139,18 +139,18 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⤵️🤝HELP🤝⤵️",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
+                                                                                   InlineKeyboardButton(text="",
                                                                        url=f"tg://user?id{OWNER_ID}")],
-                                                                                   [InlineKeyboardButton(text="ADD TECHNO TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="⤴️TAKE ME TO YOUR GROUP⤴️",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/Noob-gang/TechnoSecurity")
+                                                                                   InlineKeyboardButton(text="👩‍💻SAURCE CODE IN BIO🥺",
+                                                                       url="https://instagram.com/mr_purushottam_m/")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am Already ONline")
+        update.effective_message.reply_text("Hello Mr / Mrs Who are you & Why are you starting me ?? 🥺😉, I am Already ONline")
 
 
 def send_start(bot, update):
