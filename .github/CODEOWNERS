@@ -2,7 +2,7 @@
 # Default owners for everything in the repo, unless a later match takes precedence
 
 # Testing edit 
-* @Librarian_maintainance 
+*  @Librarian_maintainance 
 
 
 # Phoenix owns the files under blacklist thingies 
