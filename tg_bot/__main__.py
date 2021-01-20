@@ -147,10 +147,10 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="👩‍💻SAURCE CODE IN BIO🥺",
                                                                        url="https://instagram.com/mr_purushottam_m/")
-                                                                                 ]]))
+                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Hello Mr / Mrs Who are you & Why are you starting me ?? 🥺😉, I am Already ONline")
+        update.effective_message.reply_text("Hello Mr / Mrs Who are you & Why are you starting me ?? 🥺😉, Becuse I am Already ONline")
 
 
 def send_start(bot, update):
