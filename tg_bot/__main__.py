@@ -49,7 +49,7 @@ Commands Available In **Main Menu**:
 And the Following : 
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/3ffcca74b8f564f7883fc.jpg"
+TECHNO_IMG = "https://telegra.ph/file/1471e3045f93d131509e3.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
